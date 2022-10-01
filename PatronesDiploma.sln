@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatronesDiploma", "PatronesDiploma\PatronesDiploma.csproj", "{86C1B3CC-528D-4CC9-8ED2-7F5AF469EE55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Prototype", "C-Prototype\C-Prototype.csproj", "{84C465E3-5571-4A39-AFB6-D4E9ECB1CACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Prototype2", "C-Prototype2\C-Prototype2.csproj", "{00D56E2E-43E0-42B0-8EC1-2CF4E3938DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{86C1B3CC-528D-4CC9-8ED2-7F5AF469EE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C1B3CC-528D-4CC9-8ED2-7F5AF469EE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C1B3CC-528D-4CC9-8ED2-7F5AF469EE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C465E3-5571-4A39-AFB6-D4E9ECB1CACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C465E3-5571-4A39-AFB6-D4E9ECB1CACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C465E3-5571-4A39-AFB6-D4E9ECB1CACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C465E3-5571-4A39-AFB6-D4E9ECB1CACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D56E2E-43E0-42B0-8EC1-2CF4E3938DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D56E2E-43E0-42B0-8EC1-2CF4E3938DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D56E2E-43E0-42B0-8EC1-2CF4E3938DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D56E2E-43E0-42B0-8EC1-2CF4E3938DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
