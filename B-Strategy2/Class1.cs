@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace B_Strategy
+namespace B_Strategy2
 {
-    public class Class1
+    public class StrategyBattaglia
     {
-        //Behavioral pattern
-        
+
     }
 }
