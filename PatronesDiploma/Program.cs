@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using B_Strategy;
+using B_Strategy2;
 using C_Prototype2;
 
 namespace PatronesDiploma
@@ -25,9 +26,15 @@ namespace PatronesDiploma
             #endregion
 
             #region Patron Strategy (Estrategia)
-            Console.WriteLine("Creational Pattern - Prototype Deep \r\n");
-            UserInterface ui = new UserInterface();
-            ui.ProgramExcecution();
+            //Console.WriteLine("Creational Pattern - Prototype Deep \r\n");
+            //UserInterface strategy = new UserInterface();
+            //strategy.ProgramExcecution();
+            #endregion
+
+            #region Patron Strategy v1 (Estrategia)
+            Console.WriteLine("Behavioural Pattern - Strategy \r\n");
+            Strategy2 strategy2 = new Strategy2();
+            strategy2.UserInterface();
             #endregion
 
             Console.ReadKey();

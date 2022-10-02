@@ -52,6 +52,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\B-Strategy2\B-Strategy2.csproj">
+      <Project>{9B0ACC9E-8CDE-4EA9-BF58-E5845FB0F397}</Project>
+      <Name>B-Strategy2</Name>
+    </ProjectReference>
     <ProjectReference Include="..\B-Strategy\B-Strategy.csproj">
       <Project>{2151C214-3D98-41DA-A2DC-D4DF9778BC52}</Project>
       <Name>B-Strategy</Name>
