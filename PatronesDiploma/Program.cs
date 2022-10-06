@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using B_Strategy;
 using B_Strategy2;
+using C_Builder;
 using C_Prototype2;
 
 namespace PatronesDiploma
@@ -32,9 +33,15 @@ namespace PatronesDiploma
             #endregion
 
             #region Patron Strategy v1 (Estrategia)
-            Console.WriteLine("Behavioural Pattern - Strategy \r\n");
-            Strategy2 strategy2 = new Strategy2();
-            strategy2.UserInterface();
+            //Console.WriteLine("Behavioural Pattern - Strategy \r\n");
+            //Strategy2 strategy2 = new Strategy2();
+            //strategy2.UserInterface();
+            #endregion
+
+            #region Patron Builder (Constructor)
+            //Console.WriteLine("Creational Pattern - Builder \r\n");
+            //Director builder = new Director();
+            //builder.PrintPizzas();
             #endregion
 
             Console.ReadKey();
