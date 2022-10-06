@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{86C1B3CC-528D-4CC9-8ED2-7F5AF469EE55}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>PatronesDiploma</RootNamespace>
-    <AssemblyName>PatronesDiploma</AssemblyName>
+    <ProjectGuid>{ECF17AD6-98C7-476F-81B1-0A6945423815}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>S_Proxy</RootNamespace>
+    <AssemblyName>S-Proxy</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,39 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Business\IRepository.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\Session.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Prototype.cs" />
-    <Compile Include="ProtoypeShallow.cs" />
+    <Compile Include="Proxy\CustomerRepository.cs" />
+    <Compile Include="Proxy\CustomerRepositoryProxy.cs" />
+    <Compile Include="UserInterface\PrintConsole.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\B-Strategy2\B-Strategy2.csproj">
-      <Project>{9B0ACC9E-8CDE-4EA9-BF58-E5845FB0F397}</Project>
-      <Name>B-Strategy2</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\B-Strategy\B-Strategy.csproj">
-      <Project>{2151C214-3D98-41DA-A2DC-D4DF9778BC52}</Project>
-      <Name>B-Strategy</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\C-Builder\C-Builder.csproj">
-      <Project>{C93DDE99-1D7F-4877-A576-8EBF61A12A1F}</Project>
-      <Name>C-Builder</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\C-Prototype2\C-Prototype2.csproj">
-      <Project>{00D56E2E-43E0-42B0-8EC1-2CF4E3938DF7}</Project>
-      <Name>C-Prototype2</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\C-Prototype\C-Prototype.csproj">
-      <Project>{84C465E3-5571-4A39-AFB6-D4E9ECB1CACA}</Project>
-      <Name>C-Prototype</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\S-Proxy\S-Proxy.csproj">
-      <Project>{ECF17AD6-98C7-476F-81B1-0A6945423815}</Project>
-      <Name>S-Proxy</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

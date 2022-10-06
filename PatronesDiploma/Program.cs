@@ -7,6 +7,7 @@ using B_Strategy;
 using B_Strategy2;
 using C_Builder;
 using C_Prototype2;
+using S_Proxy.UserInterface;
 
 namespace PatronesDiploma
 {
@@ -42,6 +43,12 @@ namespace PatronesDiploma
             //Console.WriteLine("Creational Pattern - Builder \r\n");
             //Director builder = new Director();
             //builder.PrintPizzas();
+            #endregion
+
+            #region Patron Proxy (Apoderado)
+            Console.WriteLine("Estructural Pattern - Proxy \r\n");
+            PrintConsole proxy = new PrintConsole();
+            proxy.UserInterface();
             #endregion
 
             Console.ReadKey();
